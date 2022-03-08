@@ -10,8 +10,6 @@ class StockPicking(models.Model):
     delivery_date = fields.Date(string="Data consegna")
     picking_type_value = fields.Char(compute="check_picking_type", stored=1)
 
-    # TODO picking type(done), depends(done) e verifica esistenza record(done)
-
     @api.depends('picking_type_value')
     def check_picking_type(self):
         stock = self.env['stock.picking'].browse(self.id)

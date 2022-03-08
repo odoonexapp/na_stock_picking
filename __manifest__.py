@@ -3,6 +3,7 @@
     'summary': 'Stock picking',
     'description': """Stock picking""",
     'version': '14.0.1.1',
+    'images': ['images/stock picking.png'],
     'depends': [
         'stock',
     ],
