@@ -1,0 +1,17 @@
+{
+    'name': 'Nexapp Stock picking',
+    'summary': 'Stock picking',
+    'description': """Stock picking""",
+    'version': '14.0.1.1',
+    'depends': [
+        'stock',
+    ],
+    'author': "Nexapp - Mastini Alberto",
+    'license': "AGPL-3",
+    'website': 'https://www.nexapp.it',
+    'category': 'Nexapp',
+    'data': [
+        'views/stock_picking_view.xml',
+
+    ],
+}
