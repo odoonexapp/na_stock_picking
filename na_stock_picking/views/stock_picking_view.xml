@@ -7,8 +7,8 @@
             <xpath expr="//page[@name='note']" position="after">
                 <page string="Informazioni consegna" attrs="{'invisible': [('picking_type_code', '=', 'outgoing')]}">
                     <group>
-                        <field name="ddt_num"/>
-                        <field name="delivery_date"/>
+                        <field name="ddt_supplier_number"/>
+                        <field name="ddt_supplier_date"/>
                     </group>
                 </page>
             </xpath>
