@@ -7,7 +7,7 @@
     'depends': [
         'stock',
     ],
-    'author': "Nexapp - Mastini Alberto",
+    'author': "Nexapp S.p.a.",
     'license': "AGPL-3",
     'website': 'https://www.nexapp.it',
     'category': 'Nexapp',
