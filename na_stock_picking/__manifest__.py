@@ -7,7 +7,7 @@
     'depends': [
         'stock',
     ],
-    'author': "Nexapp S.p.",
+    'author': "Nexapp S.p.a.",
     'license': "AGPL-3",
     'website': 'https://www.nexapp.it',
     'category': 'Nexapp',
