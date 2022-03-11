@@ -6,6 +6,8 @@
     'images': ['images/stock_picking_screenshot.png'],
     'depends': [
         'stock',
+        'l10n_it_delivery_note',
+
     ],
     'author': "Nexapp S.p.a.",
     'license': "AGPL-3",
