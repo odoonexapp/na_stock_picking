@@ -18,17 +18,17 @@ msgstr ""
 #. module: na_stock_picking
 #: model:ir.model.fields,field_description:na_stock_picking.field_stock_picking__ddt_supplier_number
 msgid "DDT number"
-msgstr "Numero DDT"
+msgstr "Numero DDT fornitore"
 
 #. module: na_stock_picking
 #: model:ir.model.fields,field_description:na_stock_picking.field_stock_picking__ddt_supplier_date
 msgid "Delivery date"
-msgstr "Data di consegna"
+msgstr "Data DDT fornitore"
 
 #. module: na_stock_picking
 #: model_terms:ir.ui.view,arch_db:na_stock_picking.stock_picking_view_form
 msgid "Delivery info"
-msgstr "Informazioni consegna"
+msgstr "Informazioni DDT"
 
 #. module: na_stock_picking
 #: model:ir.model.fields,field_description:na_stock_picking.field_stock_picking__display_name
