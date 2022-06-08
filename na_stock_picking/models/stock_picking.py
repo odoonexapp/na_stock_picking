@@ -6,5 +6,5 @@ from odoo.exceptions import UserError
 class StockPicking(models.Model):
     _inherit = 'stock.picking'
 
-    ddt_supplier_number = fields.Char(string='DDT number')
-    ddt_supplier_date = fields.Date(string="Delivery date")
+    ddt_supplier_number = fields.Char(string='DDT number', copy=False)
+    ddt_supplier_date = fields.Date(string="Delivery date", copy=False)
